@@ -1,0 +1,164 @@
+/* base styles */
+
+* {
+    font-family: "Ubuntu Mono", sans-serif;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section {
+    display: block;
+    padding-top: 75px;
+}
+
+.container {
+    width: 970px;
+    margin: auto;
+    padding-top: 75px;
+}
+
+.container h3,
+.container h4 {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.container h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container h4 {
+    font-size: 15px;
+}
+
+.header-container,
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    width: 970px;
+    margin:auto;
+}
+
+header {
+    width: 100%;
+    background-color: #222;
+    height: 75px;
+    padding: 20px;
+    z-index: 300;
+}
+
+header #company-logo {
+    flex: 2;
+}
+
+header h1 {
+    font-size: 40px;
+    font-weight: thin;
+    color: azure;
+    line-height: 35px;
+    text-shadow: 1px 1px 3px #333;
+}
+
+header h2 {
+    font-size: 25px;
+    font-weight: thin;
+    color: azure;
+    line-height: 35px;
+    text-shadow: 1px 1px 3px #333;
+}
+
+header .menu-wrapper {
+    flex: 2;
+    line-height: 35px;
+    text-align: right;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+img {
+    border-radius: 5%;
+    width: 15vw;
+    height: 15vw;
+}
+
+.header {
+    font-size: 37px;
+    margin: 2.5% 0 2.5% 0;
+    color: #009900;
+    text-align: center;
+    font-weight: bold;
+}
+
+.header-c {
+    font-size: 25px;
+    color: #009900;
+    text-align: center;
+    font-weight: bold;
+}
+
+.indian {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.chinese {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.indian-row1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.indian-row2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.chinese-row1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.chinese-row2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.food-block {
+    align-items: center;
+    width: 15%;
+    padding: 1vw 1vw 0 1vw;
+    margin: 1vw 3vw;
+    font-size: 15px;
+    background-color: #009900;
+    color: azure;
+    border-radius: 5%;
+}
+
+.food-box-title {
+    font-weight: bold;
+    font-size: 18px;
+    color: azure;
+}
